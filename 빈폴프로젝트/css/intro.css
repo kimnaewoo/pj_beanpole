@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+/* font-family: 'DM Serif Display', serif; */
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Gowun Batang', serif; */
+/* font-family: 'Nanum Pen Script', cursive; */
+@import url(../css/common.css);
+
+html,
+body {
+  background-color: #000;
+  width: 100vw;
+  height: 99.7vh;
+}
+.video-box{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+#myvid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+}
+#welcome {
+  position: absolute;
+  display: none;
+  top: 45%;
+  left: 50%;
+  color: #fff;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+/* @keyframes wel-ani {
+  0% {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+      -webkit-background-clip: text;
+      background-image: linear-gradient(to right, #fff, orange);
+      color: transparent;
+  }
+} */
+#enter {
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+#enter span {
+  /* display: none; */
+  text-align: center;
+  font-size: 2rem;
+  transition: 2s;
+}
+#enter span:hover{
+  transition: .5s;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #fff, orange);
+    color: transparent;
+
+}
+/* @keyframes enter-ani {
+  0% {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+    }
+  } */
+  /* span.on {
+    transition: .5s;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #fff, orange);
+    color: transparent;
+  } */
